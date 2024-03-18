@@ -1,0 +1,17 @@
+.profile {
+  display: flex;
+  background: url('../../../assets/ProfileImg.jpg');
+  height: 40vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: calc(14vh/2 + 2vh);
+}
+
+/* 40 - AvatarSize/2 */
+.profileCover {
+  margin-top: calc(40vh - 14vh/2);
+  margin-left: calc(50% - 14vh/2);
+  position: relative;
+}

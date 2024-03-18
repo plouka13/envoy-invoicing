@@ -1,0 +1,52 @@
+.widgetWrapper {
+  display: "flex";
+  min-height: "100%"
+}
+
+.widgetHeader {
+  padding: 24px;
+  padding-bottom: 8px;
+  align-content: left;
+}
+
+.widgetRoot {
+  /* box-shadow: "0px 3px 11px 0px #E8EAFC, 0 3px 3px -2px #B2B2B21A, 0 1px 8px 0 #9A9A9A1A" */
+  box-shadow: rgba(254, 205, 211, 0.1) 0px 4px 16px, rgba(254,205,211,0.1) 0px 8px 24px, rgba(254,205,211, 0.1) 0px 16px 56px;
+}
+
+.widgetBody {
+  padding-bottom: 24px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.noPadding {
+  padding: 0
+}
+
+.paper {
+  display: "flex";
+  flex-direction: "column";
+  flex-grow: 1;
+  overflow: "auto";
+}
+
+.moreButton {
+  margin: -2px;
+  padding: 0;
+  width: 40;
+  height: 40;
+  /* color: theme.palette.text.hint,
+    "&:hover"{
+      backgroundColor: theme.palette.primary.main,
+      color: "rgba(255, 255, 255, 0.35)",
+    }, */
+}
+
+.noWidgetShadow {
+  box-shadow:'none'
+}
+
+.tableWidget {
+  overflow-x: "auto"
+}

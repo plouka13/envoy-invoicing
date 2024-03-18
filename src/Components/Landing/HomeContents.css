@@ -1,0 +1,44 @@
+.topbarContainer {
+  flex-grow: 1;
+  margin: 100px;
+}
+
+.btn {
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-size: 0.8vw;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: white;
+  border: none;
+  transition-duration: 0.5s;
+}
+
+.btn:hover {
+  margin-top: -5px;
+}
+
+.btnBorder {
+  border: 3px solid rgb(228, 226, 226);
+  padding: 12px 24px;
+  border-radius: 10px;
+}
+
+.btnBorder:hover {
+  transition-duration: 0.5s;
+  background-color: rgb(54, 203, 180);
+  color: white;
+  border-color: white;
+}
+
+.btnOrange {
+  color: white;
+  margin-top: 40px;
+  background-color: rgb(54, 203, 180);
+  border-color: white;
+}
+
+.landingimg {
+  max-width: 100%;
+  height: 'auto';
+}
